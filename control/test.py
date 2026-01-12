@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-# Motor pins (using pin 16 instead of 8 since 8 is used by SPI)
+# Motor pins (using pin 16)
 # Motor 1: pins 23, 24
 # Motor 2: pins 25, 16
 # Motor 3: pins 5, 6
