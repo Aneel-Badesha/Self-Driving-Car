@@ -1,3 +1,0 @@
-MOTOR_CMD = 0x100
-ESTOP     = 0x101
-STATUS    = 0x200
