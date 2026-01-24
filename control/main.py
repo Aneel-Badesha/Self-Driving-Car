@@ -12,8 +12,10 @@ if __name__ == "__main__":
         motors.setup_all()
 
         # Drive all wheels forward
+        motors.set_speed_all(25)
         motors.drive_all(FORWARD)
-        time.sleep(5)
+        time.sleep(10)
+
         motors.stop_all()
     finally:
         motors.cleanup()
