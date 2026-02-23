@@ -8,7 +8,7 @@ Self-driving RC car project (work in progress) with:
 ## Current status
 
 - Motor controller implemented (`control/control.py`)
-- Pi camera streaming implemented (`vision/stream_pi.py`)
+- Pi camera streaming implemented (`vision/stream_pi.py` )
 - PC receiver + optional detection implemented (`vision/receiver_pc.py`)
 - [TODO] Planning/safety/simulation modules are placeholders (`control/planner.py`, `control/safety.py`, `sim/replay.py`)
 
